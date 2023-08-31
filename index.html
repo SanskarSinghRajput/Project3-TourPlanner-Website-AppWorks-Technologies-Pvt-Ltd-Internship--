@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelle</title>
+    <link rel="icon" type="image/x-icon" href="./tour/paris-2499022.jpg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+   <div class="">
+     <div class="container-fluid pt-2">
+        <div class="row head-top">
+          <div class="col-10 pb-0 contact">
+            <ul class="d-flex text-white float-start">
+              <li class="li-item"><i class="fa fa-phone"></i> +91 (4567) 556677</li>
+              <li class="li-item"><i class="fa fa-envelope"></i> company@gmail.com</li>
+              <li class="li-item"><i class="fa fa-map-marker"></i> 3146 Koontz Lane, California</li>
+            </ul>
+          </div>
+          <div class="col-md-2 pb-0 social">
+            <ul class="d-flex text-white pe-2 float-end">
+              <li class="li-item"><i class="fa-brands fa-facebook-f"></i></li>
+              <li class="li-item"><i class="fab fa-twitter"></i></li>
+              <li class="li-item"><i class="fab fa-instagram"></i></li>
+              <li class="li-item"><i class="fa-brands fa-linkedin-in"></i></li>
+              <li class="li-item search"><i class="fas fa-search"></i></li>
+            </ul>
+            <ul class="d-flex text-white pe-2 float-end ms-auto search2">
+              <li class="li-item"><i class="fas fa-search"></i></li>
+            </ul>
+          </div>    
+        </div>
+      </div>
+    </div>  
+    <header class=" sticky-top">
+      <div class="container-fluid">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand ps-5"><img width="100px" src="./tour/travele-logo 2.png" alt=""></a>
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav fw-bold ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item px-2">
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="./tour4.html">Hotels</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="./tour2.html">Offers</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" aria-current="page" href="./tour3.html">Contact Us</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav fw-bold ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="./tour6.html">Log in</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="./tour5.html">Sign Up</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>    
+    </header>
+
+    <section class="py-3 slider">
+      <div class="col-12 pb-2">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner ">
+            <div class="carousel-item active">
+              <img src="./tour/image.jpg" alt="" class="img-fluid" alt="..."> 
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="typing pb-5" id="typing"></h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./tour/image (1).jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./tour/image (2).jpg" class="img-fluid" alt="...">
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+
+        <form class="row g-3 bg-white p-4 justify-content-center mx-2" action="input">
+          <div class="col-md-2">
+           <label for="name" class="form-label">Search Destination*</label>
+           <input type="text" class="form-control bg-light" id="name" placeholder="Enter Destination" pattern="[A-Za-z]*">
+          </div>
+  
+          <div class="col-md-2">
+           <label for="mobile" class="form-label">PAX Number*</label>
+           <input type="text" class="form-control bg-light" id="mobile" placeholder="No. of Peoples" pattern="[0-9]*">
+          </div>
+  
+          <div class="col-md-2">
+           <label for="exampleFormControlInput1" class="form-label">Checkin Date*</label>
+           <input type="date" class="form-control bg-light" id="exampleFormControlInput1">
+          </div>
+  
+          <div class="col-md-2">
+            <label for="exampleFormControlInput1" class="form-label">CheckOut Date*</label>
+            <input type="date" class="form-control bg-light" id="exampleFormControlInput1">
+          </div>
+  
+          <div class="col-md-3">
+            <button for="submit" class="btn mt-3"><h6 class="py-3 px-5 rounded">INQUIRE NOW</h6></button> 
+          </div>
+       </form>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+
+        <div class="row py-3">
+          <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+            <h6 class="fw-bold text-uppercase text-decoration-underline">POPULAR DESTINATIONS</h6>
+            <h1 class="fw-bold">TOP NOTCH DESTINATIONS</h1>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 ">
+            <p>Aperiam sociosqu urna praesent, tristique, corrupti condimentum
+            asperiores platea ipsum ad arcu. Nostrud. Aut nostrum, ornare quas 
+            provident laoreet nesciunt.</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-7">
+              <div>
+                <div class="row">
+                  <div class="col-md-12 col-lg-6">
+                    <div class="position-relative">
+                        <img src="./tour/img1.jpg" class="card-img-top" alt="...">
+                   
+                      <div class="place">
+                        <a href="#">THAILAND</a>
+                      </div>
+                      <div class="content text-light">
+                        <h3>Disney Land</h3>
+                        <div class="rating">
+                          <span><i class="far fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-lg-6">
+                    <div class="position-relative">
+                        <img src="./tour/img2.jpg" class="card-img-top" alt="...">
+                      <div class="place">
+                        <a href="#">NORWAY</a>
+                      </div>
+                      <div class="content text-light">
+                        <h3>Besseggen Ridge</h3>
+                        <div class="rating">
+                          <span><i class="far fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-5">
+              <div class="mt-1 mb-4">
+                <div class="text-center border-4 border-light position-relative">
+                  <img src="./tour/img3.jpg" alt="" class="img-fluid">
+                  <div class="place">
+                    <a href="#">NEW ZEALAND</a>
+                  </div>
+                  <div class="content text-light">
+                    <h3>Oxoloton City</h3>
+                    <div class="rating">
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-4 mb-1">
+                <div class="text-center border-4 border-light position-relative">
+                  <img src="./tour/img4.jpg" alt="" class="img-fluid">
+                  <div class="place">
+                    <a href="#">SINGAPORE</a>
+                  </div>
+                  <div class="content text-light">
+                    <h3>Marina Bay Sand City</h3>
+                    <div class="rating">
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center py-3">
+          <div class="col-12 pt-4 mx-auto text-center">
+            <button class="view py-3 px-4 border rounded">MORE DESTINATONS</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+
+        <div class="row py-3">
+          <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+            <h6 class="fw-bold text-uppercase text-decoration-underline">Travel information</h6>
+            <h1 class="fw-bold">TRAVEL NEWS & UPDATES</h1>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <p>Aperiam sociosqu urna praesent, tristique, corrupti condimentum
+            asperiores platea ipsum ad arcu. Nostrud. Aut nostrum, ornare quas 
+            provident laoreet nesciunt.</p>
+          </div>
+        </div>
+        
+        <div class="row justify-content-center pt-3 ps-1">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center border-0">
+              <img src="./tour/1party-people-outdoors-holding-f.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Get Cheap Europe Tour Packages</h5>
+                <button for="submit" class="btn"><h6 class="py-3 px-5 rounded">Read More</h6></button> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center border-0">
+              <img src="./tour/1manuel-meurisse-EuCll-F5atI-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Family Vacation Destinations Tips</h5>
+                <button for="submit" class="btn"><h6 class="py-3 px-5 rounded">Read More</h6></button> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center border-0">
+              <img src="./tour/1people-portrait-with-plane-flying-sky.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Guidelines For International Travel</h5>
+                <button for="submit" class="btn"><h6 class="py-3 px-5 rounded">Read More</h6></button> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center border-0">
+              <img src="./tour/3ilia-bronskiy-aBeqWFS7dP0-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Destinations For Next Excursion</h5>
+                <button for="submit" class="btn"><h6 class="py-3 px-5 rounded">Read More</h6></button> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-5" id="place">
+      <div class="container">
+
+        <div class="row py-3">
+          <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+            <h6 class="fw-bold text-uppercase text-decoration-underline">Travel by Activity</h6>
+            <h1 class="fw-bold">EXPLORE GREAT PLACES</h1>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 mx-auto">
+            <p>Aperiam sociosqu urna praesent, tristique, corrupti condimentum
+            asperiores platea ipsum ad arcu. Nostrud. Aut nostrum, ornare quas 
+            provident laoreet nesciunt.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center p-2">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0">
+              <img src="./tour/tigers-591359_1920.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">WILD SAFARI</h5>
+                <p class="card-text">India</p>
+              </div>
+            </div>
+          </div>  
+
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0">
+              <img src="./tour/1raft-1429872_1920.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CANOE ADVENTURE</h5>
+                <p class="card-text">Thailand</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0">
+              <img src="./tour/mountain-13423924_1920.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MOUNTAIN CLIMBING</h5>
+                <p class="card-text">Kerla</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center p-2">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0">
+              <img src="./tour/geology-1834846_1920.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">KAYAKING</h5>
+                <p class="card-text">USA</p>
+              </div>
+            </div>
+          </div>  
+
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0">
+              <img src="./tour/zipline-4135588_1920.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ZIP LINE</h5>
+                <p class="card-text">Australia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0">
+              <img src="./tour/girl-1561989_1920.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CANAL RIDE</h5>
+                <p class="card-text">California</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+
+        <div class="row py-3">
+          <div class="col-5 text-center">
+            <h6 class="fw-bold text-uppercase text-decoration-underline">Enjoy with your love</h6>
+            <h1 class="fw-bold">OUR BEST PLACES</h1>
+          </div>
+          <div class="col-7 mx-auto">
+            <p>Aperiam sociosqu urna praesent, tristique, corrupti condimentum
+            asperiores platea ipsum ad arcu. Nostrud. Aut nostrum, ornare quas 
+            provident laoreet nesciunt.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center px-2">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0">
+              <img src="./tour/eiffel-tower-975004.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Eiffel Tower</h5>
+                <p class="card-text">Paris</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0">
+              <img src="./tour/burj-khalifa-2212978.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Burj Khalifa</h5>
+                <p class="card-text">Saudi Arabia</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0">
+              <img src="./tour/paris-2499022.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pont des Arts</h5>
+                <p class="card-text">Paris</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>      
+
+    <section class="py-5">
+      <div class="container-fluid">
+        <div class="row ms-5">
+           <h2 class="fw-bold">GALLERY</h2>
+        </div>
+        <div class="row py-2">
+          <div class="col-sm-12 col-md-12 col-lg-6 justify-content-center">
+            <img data-aos="fade-up" src="./tour/water-3021652_1920.jpg" alt="" class="img-fluid">
+          </div>
+          <div data-aos="fade-up" class="col-sm-12 col-md-12 col-lg-6 bg-light">
+            <h3 class="fw-bold my-4 text-center pt-5">"Sit, be still, and listen."</h3>
+            <h3 class="fw-bold my-4 text-end me-5 pe-5">- Rumi</h3>
+            <p class="pt-4 mx-auto text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            facere sed doloremque adipisci nam temporibus voluptate, blanditiis
+            voluptatem vitae ullam suscipit obcaecati quo minus? Facilis!
+          </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+
+        <div class="row py-3">
+          <div class="col-12 text-center">
+            <h6 class="fw-bold text-uppercase">_______Explore Great Places_______</h6>
+            <h1 class="fw-bold">POPULAR PACKAGES</h1>
+          </div>
+          <div class="col-8 mx-auto text-center">
+            <p>Aperiam sociosqu urna praesent, tristique, corrupti condimentum
+            asperiores platea ipsum ad arcu. Nostrud. Aut nostrum, ornare quas 
+            provident laoreet nesciunt.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center px-2">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0 position-relative">
+              <img data-aos="zoom-in" src="./tour/Pic1.jpg" class="card-img-top" alt="...">
+              <div class="package-price">
+                <h6 class="text-center px-2"><span class="fs-6 fw-bold">$1200</span>/per person</h6>
+              </div>
+              <div>
+                <div class="package-meta position-relative">
+                  <ul>
+                    <li><i class="far fa-clock"></i> 5D/4N </li>
+                    <li><i class="fas fa-user-friends"></i> People: 5 </li>
+                    <li><i class="fas fa-map-marker-alt"></i> Malaysia </li>
+                  </ul>
+                </div>
+                <div class="package-content pb-4">
+                  <h5>
+                    <a class="pack-text" href="#">Experience the natural beauty of island</a>
+                  </h5>
+                  <div class="review-area">
+                    <span class="review-text">(17 reviews)</span>
+                    <div class="rating-start" title="Rated 5 out of 5">
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam.
+                    Ut elit tellus, luctus nec ullam elit tellpus.
+                  </p>
+                  <div class="btn-wrap">
+                    <a href="#" class="button-text">Book Now <i class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="button-text">Wish List <i class="far fa-heart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0 position-relative">
+              <img  data-aos="zoom-in" src="./tour/Pic2.jpg" class="card-img-top" alt="...">
+              <div class="package-price">
+                <h6 class="text-center px-2"><span class="fs-6 fw-bold">$1900</span>/per person</h6>
+              </div>
+              <div>
+                <div class="package-meta position-relative">
+                  <ul>
+                    <li><i class="far fa-clock"></i> 6D/7N </li>
+                    <li><i class="fas fa-user-friends"></i> People: 5 </li>
+                    <li><i class="fas fa-map-marker-alt"></i> Canada </li>
+                  </ul>
+                </div>
+                <div class="package-content pb-4">
+                  <h5>
+                    <a class="pack-text" href="#">Sunset view of beautiful lakeside resident</a>
+                  </h5>
+                  <div class="review-area">
+                    <span class="review-text">(17 reviews)</span>
+                    <div class="rating-start" title="Rated 5 out of 5">
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam.
+                    Ut elit tellus, luctus nec ullam elit tellpus.
+                  </p>
+                  <div class="btn-wrap">
+                    <a href="#" class="button-text">Book Now <i class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="button-text">Wish List <i class="far fa-heart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <div class="card text-center border-0 position-relative">
+              <img data-aos="zoom-in" src="./tour/Pic3.jpg" class="card-img-top" alt="...">
+              <div class="package-price">
+                <h6 class="text-center px-2"><span class="fs-6 fw-bold">$2100</span>/per person</h6>
+              </div>
+              <div>
+                <div class="package-meta position-relative">
+                  <ul>
+                    <li><i class="far fa-clock"></i> 6D/5N </li>
+                    <li><i class="fas fa-user-friends"></i> People: 6 </li>
+                    <li><i class="fas fa-map-marker-alt"></i> Portugal </li>
+                  </ul>
+                </div>
+                <div class="package-content pb-4">
+                  <h5>
+                    <a class="pack-text" href="#">Experience the natural beauty of island</a>
+                  </h5>
+                  <div class="review-area">
+                    <span class="review-text">(17 reviews)</span>
+                    <div class="rating-start" title="Rated 5 out of 5">
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam.
+                    Ut elit tellus, luctus nec ullam elit tellpus.
+                  </p>
+                  <div class="btn-wrap">
+                    <a href="#" class="button-text">Book Now <i class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="button-text">Wish List <i class="far fa-heart"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center py-2">
+          <div class="col-12 pt-4 mx-auto text-center">
+            <button class="view py-2 px-4 bordrer rounded">VIEW ALL PACKAGES</button>
+          </div>
+        </div>
+
+      </div>
+    </section>  
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row fw-bold px-2">
+          <div class="col-12 text-center">
+            <h6 class="fw-bold text-uppercase">_________ From Our Blogs _________</h6>
+            <h1 class="fw-bold">OUR RECENT POSTS</h1>
+            <div class="col-8 pt-3 mx-auto text-center">
+              <p>
+                Aperiam sociosqu urna praesent, tristique, corrupti condimentum
+                asperiores platea ipsum ad arcu. Nostrud. Aut nostrum, ornare quas 
+                provident laoreet nesciunt.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row my-4 px-2">
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <img src="./tour/1hallstatt-3609863.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <img src="./tour/dubai-1085058.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <img src="./tour/1portugal-3029665.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="row my-4 px-2"> 
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <img src="./tour/1swimming-pool-633837_1920.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <img src="./tour/lawn-3248159_1920.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+            <img src="./tour/2ilia-bronskiy-aBeqWFS7dP0-unsplash.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row text-start fw-bold bg-dark ps-2 py-3">
+          <div class="col d-flex flex-column text-white text-center">
+            <h5 class="py-2 fw-bold">PLACES</h5>
+            <a>USA</a>
+            <a>ITALY</a>
+            <a>CANADA</a>
+            <a>AFRICA</a>
+            <a>EUROPE</a>
+          </div>
+          <div class="col d-flex flex-column text-white text-center">
+            <h5 class="py-2 fw-bold">SUPPORT</h5>
+            <a>CAREERS</a>
+            <a>INSURANCE</a>
+           <a>MEMBERSHIP</a>
+           <a>OFFERS</a>
+           <a>GIFT CARDS</a>
+          </div>
+          <div class="col d-flex flex-column text-white text-center">
+            <h5 class="py-2 fw-bold">FOLLOW US</h5>
+            <a>YOUTUBE</a>
+            <a>FACEBOOK</a>
+            <a>TWITTER</a>
+            <a>INSTAGRAM</a>
+          </div>
+        </div>
+
+        <div class="row text-center bg-dark text-white py-2">
+         <p>@All rights reserved to TourPlanner</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const navE1 = document.querySelector('.navbar');
+
+      window.addEventListener('scroll', () =>{
+        if(window.scrollY > 22){
+           navE1.classList.add('navbar-scrolled');
+        }
+      });
+
+      window.addEventListener('scroll', () =>{
+        if(window.scrollY < 22){
+           navE1.classList.remove('navbar-scrolled');
+        }
+      });
+    </script>
+
+   <script src="./script.js"></script> 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
+</body>
+</html>
